@@ -57,7 +57,7 @@ export class GUIController {
 
 		add('enabled')
 		add('exposure', [0, 1, 0.01])
-		add('decay', [0, 3, 0.01])
+		add('decay', [0, 1, 0.01])
 		add('density', [0, 1, 0.01])
 		add('weight', [0, 1, 0.01])
 		add('samples', [10, 100, 10])
